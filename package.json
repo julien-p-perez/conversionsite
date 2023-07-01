@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mathjs": "^11.8.2",
+    "type": "module" 
+    
+    
+    
+  }
+}
