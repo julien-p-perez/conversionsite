@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Temperature Conversion </title>
+
+    <div>
+        <fieldset> 
+            <legend> Select the temperature you want to convert </legend>
+        <form>
+            <input type = "radio" id = "celsius" name = "tempselect" value = "CELSIUS">
+            <label for = "celsius">Celsius</label><br> 
+
+            <input type = "radio" id = "fahrenheit" name  = "tempselect" value = "FARENHEIT"> 
+            <label for = "farenheit">Fahrenheit</label><br> 
+
+            <input type = "radio" id = "kelvin" name = "tempselect" value = "KELVIN"> 
+            <label for = "kelvin">Kelvin</label><br> 
+            
+            
+            <input type = "text" id = "submit"> 
+            <label for = "submission"> </label>
+            <button id = "submission" onclick = "myFunction()"> Submit </button>
+
+        </form>
+        </fieldset>
+    </div>
+
+  </head>
+  <body>
+	<script src="tempcalc.js"></script>
+  </body>
+</html>
